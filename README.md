@@ -1,4 +1,4 @@
-Imagine that you are given an essay that you should mark, BUT the marking criteria are tedious and frustrating to go through. As a student who is familiar with programming, you should be able to program the marking system.
+Given an essay that has to be marked, with a marking criteria that is tedious and frustrating to go through I had to program the marking system.
 
 Criteria for the essay:
 1. The shortest word should get between 10 and 50 points (count the points based on Table 1)
@@ -15,3 +15,9 @@ Task
 3. Print out the number of times each word appears in the essay in an ascending order.
 4. Print out the student’s name, the key, the secret of the essay, and the deciphered version of the secret.
 5. Sort all words by their points and print out the one in the middle (in case the number of words is even, concatenate the two in the middle and print them out as one word without any spaces in between)
+
+
+Table 1: Letters with the corresponding points and types
+Letter A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+Point 10 21 7 2 19 18 4 8 6 11 14 3 9 22 1 23 17 5 25 13 12 26 24 16 20 15 
+Type V C C C V C C C V C C C C C V C C C C C V C C C C C 
